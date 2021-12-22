@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <h2>BOM properties</h2>
+
+        <p id="bom"></p>
+        <p id="bom2"></p>
+        <p id="bom3"></p>
+        <p id="bom4"></p>
+
+        <script>
+            document.getElementById("bom").innerHTML= "window height" + window.innerHeight + "px<br>" +
+            "windoes width" + window.innerWidth +"px";
+           
+
+            document.getElementById("bom2").innerHTML= "screen width: " + screen.width;
+
+            document.getElementById("bom3").innerHTML= "URL OF the page:" + window.location.href;
+
+            document.getElementById("bom4").innerHTML= "status of the cookies:" + navigator.cookieEnabled;
+
+
+        </script>
+    </body>
+</html>
